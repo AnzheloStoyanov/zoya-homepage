@@ -1,0 +1,97 @@
+#kukufeed a.instaLazy {
+    height: 350px;
+    width: 350px;
+
+
+}
+
+#kukufeed a.instaLazy {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 350px;
+    width: 400px;
+    opacity: 1;
+    margin: 5px;
+   
+}
+
+
+#kukufeed {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%
+}
+.main-recept-cont{
+    display: flex;
+    flex-direction: column;
+}
+#kukufeed>span>a{
+    height: 350px;
+    width: 350px;;
+}
+#kukufeed > span>a:last-child {
+    font-size: 15px;
+    font-size: 20px;
+    padding: 15px;
+    }
+
+   
+    .sub-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        width: 25%;
+    }
+    .main-sub-container{
+        display: flex;
+        margin-top: 100px;
+        padding: 0 40px;
+        
+    }
+    .sub-box form{
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .email-input {
+        max-width: 260px;
+        font-size: 1.1em;
+        letter-spacing: .6px;
+        border: 1px solid #ccc;
+    }
+    .submitbtn {
+        min-width: 70px;
+    margin-top: 5px;
+    background-color: #9FE5D7;
+    padding-left: 12px;
+    padding-right: 12px;
+    min-height: 40px;
+    border-radius: 3px;
+    border-width: 1px;
+    transition: all 0.2s ease 0s;
+    color: #4c4c4c;
+    font-size: 15px;
+   }
+  
+   .logo-of-brand {
+       width: 180px;
+       height: 90px;
+       background-image: url('../../assets/images/Untitled\ design\ \(21\).svg');
+       background-position: 0% 50%;
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+   .cards-pay{
+    width: 270px;
+    height: 80px;
+    background-image: url('../../assets/images/Untitled\ design\ \(26\).svg');
+       background-position: 0% 50%;
+       background-repeat: no-repeat;
+       background-size: cover;
+
+   }

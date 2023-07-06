@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Kraimorie';
+    src: url('../../assets/fonts/BloggerSans.ttf')
+  }
+   
+  @font-face {
+    font-family: 'Idealist';
+    src: url('../../assets/fonts/Idealist-Sans.otf')
+  }
+
+.card-button {
+    border: solid 2px #A9BAE1;
+    border-radius: 20px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    line-height: 2em;
+    padding: 3px 0 0 0;
+    color: #4C5C62;
+    font-family: Kraimorie;
+    font-size: 18px;
+}
+.card-button:hover{
+    color: #739585;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    border-width: 0 ;
+    height: auto !important;
+    border-radius: 0;
+    border-color: transparent;
+   
+}
+.card *{
+    cursor: pointer;
+}
+.card img{
+    width: 250px;
+    height: 300px;
+    vertical-align: middle;
+}
+#card1{
+    border-width: 0 4px;
+    border-style: dotted;
+    border-color: #cdcdcd;
+    border-radius: 0;
+}
+#card-arrow{
+    color: #4868b5;
+}
+.more-info {
+    height: 43px;
+    margin-top: 20px;
+    width: 200px;
+    background-color: #ecf7e9;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.more-info:hover{
+    background-color: #e1f1c2;
+}
+.card-text{
+    display: flex;
+    height: 90px;
+    text-align: center;
+    color: #476C66;
+    cursor: pointer;
+}
+.card-text:hover{
+    opacity: .8;
+}

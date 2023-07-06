@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Idealist';
+    src: url('../../assets/fonts/Idealist-Sans.otf')
+  }
+
+  @font-face {
+    font-family: 'Bahur';
+    src: url('../../assets/fonts/KFOmCnqEu92Fr1Mu4mxK.woff2')
+  }
+.news-container{
+    display: flex;
+    
+}
+.news-container>div{
+    padding: 10px 19px;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-container a {
+    color: #2DBD73;
+    margin-bottom: 10px;
+    font-size: 1.6em;
+    word-wrap: break-word;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+.newsDate {
+    color: #385870;
+    border: 0.5px solid #B0F7ED;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: fit-content;
+    font-size: 1.1em;;
+    padding: 4px 15px;
+    border-radius: 25px;
+    display: inline-block;
+    margin-left: -3px;
+    font-weight: 400;
+}
+.newsArchive {
+    display: inline-block;
+    margin-bottom: 30px;
+    float: right;
+    width: auto;
+    clear: both;
+    padding-top: 1em;
+}
+.newsArchive a {
+    font-family: 'Roboto',Sans-serif;
+    font-size: 1.1em;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 10px 16px;
+    color: #354969;
+    border-radius: 25px;
+    border: 0.5px  solid #FEF2E2;
+}
+.newsArchive img{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px
+}
+.newsArchive a:hover {
+    opacity: .85;
+}
+.contentEnd {
+    width: 94%;
+    border-top: 5px dotted #F2F7E3;
+    clear: both;
+}

@@ -1,38 +1,290 @@
-.App {
+
+  @font-face {
+  font-family: 'Kraimorie';
+  src: url('./assets/fonts/BloggerSans.ttf')
+}
+ 
+@font-face {
+  font-family: 'Idealist';
+  src: url('./assets/fonts/Idealist-Sans.otf')
+}
+
+ .navigation-menu{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin-top: 50px;
+  width: 94%;
+  border-style: dotted ;
+  border-width: 0 0 6px 0;
+  border-color: #F2F7E3;
+  padding-bottom: 14px;
+  
+ }
+
+ .quickSearch {
+  
+  padding-left: 0;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  margin-top: 3px;
+}
+.searchTable {
+  float: left;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+
+}
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+td {
+  vertical-align: top;
+}
+.searchFieldContainer, .searchButton {
+  position: relative;
+  display: block;
+}
+input {
+  border: 2px solid #ADA290;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.quickSearch input.text {
+    background-color: #d9f4ff;
+    font-family: Idealist;
+}
+
+.quickSearch input.text {
+    
+    border: 0 none;
+    border-radius: 25px;
+    outline: medium none;
+    line-height: 30px;
+    font-size: 17px;
+    transition: all 0.4s ease 0s;
+    width: 200px;
+}
+.search-icon{
+
+    font-size: 35px;
+}
+.searcing{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d9f4ff;
+  width: 268px;
+  border: 0 none;
+  border-radius: 25px;
+  outline: medium none;
+  height: 53px;
+  line-height: 30px;
+  font-size: 17px;
+  transition: all 0.4s ease 0s;
+}
+input::placeholder {
+  text-align: center; 
+  font-size: 20px;
+  font-family:Idealist ;
+}
+.searchButton:hover{
+background-color:   #939393;
+
+}
+
+.searchButton{
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #838383;
+  width: 68px;
+  box-sizing:content-box;
+  padding: 0 12px;
+  border: 0 none;
+  border-radius: 25px;
+  outline: medium none;
+  height: 53px;
+  line-height: 30px;
+  font-size: 17px;
+  transition: all 0.4s ease 0s;
+
+}
+.links span{
+  cursor: pointer;
+}
+
+.links span:hover{
+  color: black;
+}
+.popularSearch {
+  position: absolute;
+  background-color: #fff;
+  z-index: 5000;
+  overflow: hidden;
+  line-height: 22px;
+  border: 1px solid #E3DFD7;
+  border-radius: 5px;
+  margin: 0;
+  padding: 3px;
+  width: 600px;
+ top: 5px;
+}
+.popularSearch li:hover{
+  background-color: #E1DCD2;
+}
+.popularSearch li{
+  font-size: 19px;
+  font-family:Idealist ;
+  color: #4c4c4c;
+  cursor: pointer;
+  margin: 0;
+  padding: 5px;
+  overflow: auto;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.searchTitle{
+  color: #7B9BC2 !important;
+  font-size: 21px !important;
+
+}
+
+.menu-icons{
+  display: flex;
+  align-items: center;
+
+}
+.menu-icons *{
+  font-size: 35px;
+  color: #838383;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+
+
+.bahur{
+  position: relative;
+  width: 94%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.navigation-right-side{
+  display: flex;
+}
+.menu-icons>div{
+    font-size: 17px;
+    color: #000000e0;
+    margin-left: 46px;
+    font-family: Kraimorie;
+    text-transform: uppercase;
+    width: auto;
+    transition: all 0.15s ease 0s;
+    padding-top: 5px;
+    font-weight: 600;
+}
+.menu-icons>div:hover{
+  color: #B0887C;
+}
+.navigation-left-side {
+  margin-right: 50px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation-left-side span{
+  line-height: 40px;
+  font-family: sans-serif;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: white;
+  border: 1px solid #ccc;
   text-align: center;
+  float: right;
+  margin-bottom: 10px;
+  margin-right: 3px;
+  border-radius: 2px;
+  width: 40px;
+  height: 40px;
+  color: #2DBD73;
+  cursor: pointer;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navigation-left-side span:hover{
+  text-decoration: underline;
+  color: #2dbd73c1;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-page{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menu-fa-zoya-icons{
+  margin-right: 13px;
+}
+.user-icon{
+  border-color: #939393;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50px;
+  width: 41px;
+  height: 41px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-right: 10px;
+}
+.user-icon>*{
+  color: #939393;
+  font-size: xx-large;
+}
+.user-icon-container{
+  display: flex;
+}
+.user-icon-container>div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Idealist;
+  color: #939393;
+  margin-right: 20px;
+
+}
+.user-icon-container>div:hover{
+  opacity: .7
+}
+.logo>img:hover{
+  opacity: .90;
 }
 
-.App-link {
-  color: #61dafb;
+.call-to-action{
+  font-size: 22px;
+    color: #1D31E3;
+    font-family: Verdana, Arial, sans-serif;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.carosel-con-a{
+  overflow: hidden;
+  width: 94vw;
 }

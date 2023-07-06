@@ -1,0 +1,17 @@
+.banner-card-container{
+    width: 32.8%;
+    cursor: pointer;
+}
+.banner-card-container:hover{
+    opacity: 0.8;
+}
+.banner-card-container>img{
+    width: 100%;
+}
+.small-banner-container{
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}

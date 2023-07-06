@@ -1,0 +1,163 @@
+footer {
+    width: 100%;
+    height: 305px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    font-size: 13px;
+    color: #4c4c4c;
+  
+}
+footer h4 {
+    font-family: 'blogger-sans',sans-serif;
+    font-size: 22px;
+    color: #1D31E3;
+    padding: 15px;
+    text-align: center;
+    font-weight: lighter;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 0!important;
+    margin-bottom: 0px!important;
+}
+.table_wrap {
+    float: left;
+    width:100%;
+    margin-top: 10px;
+    
+    padding-top: 5px;
+    
+    color: #385870;
+    border-radius: 20px;
+}
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: none;
+    margin: 0;
+    table-layout: fixed;
+    width: 270px;
+}
+/*  */
+
+.tg .tg-hgcj {
+    font-weight: 500;
+    text-align: left;
+    font-size: 18px!important;
+    padding: 8px;
+}
+
+.tg th {
+    font-family: blogger-sans,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 5px;
+    border-style: solid;
+    border-width: 0;
+    overflow: hidden;
+    word-break: normal;
+}
+
+.col-content{
+    width: 20.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+    .contacts {
+        list-style-type: none;
+    }
+    .contacts li {
+        padding-top: 4px;
+        padding-bottom: 6px;
+        font-family: 'blogger-sans',sans-serif;
+        font-size: 116%;
+    }
+    footer a {
+        color: #385870;
+        text-decoration: none;
+        transition: all 0.2s ease 0s;
+        line-height: 160%;
+    }
+    .upper{
+        display: flex;
+        align-items: flex-start;
+    
+
+    }
+   
+    .accent{
+    color: #FF6380;
+    font-family: blogger-sans,sans-serif;
+    font-weight: 500;
+}
+footer a:hover {
+    color: #CB5053;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+   
+}
+.services .phoneNumber {
+    font-size: 34px;
+    line-height: 48px;
+    color: #2E7AF4;
+    font-family: Bebas,Tahoma;
+    letter-spacing: -.5px;
+}
+.col_1 {
+    margin-right: 0;
+    border-left: solid 1px #E8E4DC;
+    width: 54%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 36px
+  
+}
+.col_21 h4{
+    color: #0DD9B0;
+    font-size: 22px;
+    margin-bottom: 3px!important;
+    background: none;
+    font-weight: 400;
+    margin-top: 5px!important;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: blogger-sans,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif,Verdana;
+}
+.inner-21-container{
+    display: flex;
+}
+.col_21{
+    margin-right: 50px;
+    
+}
+footer *{
+    font-size: 22px;
+}
+.smesenIcon {
+    display: flex;
+    width: 222px;
+    height: 76px;
+    background-image: url('../../assets/images/Untitled\ design\ \(18\).svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 42%;
+}
+
+.zoyaSladkiLogo-bg{
+    display: flex;
+    width: 222px;
+    height: 76px;
+    background-image: url('../../assets/images/Untitled\ design\ \(19\).svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+}
+.contacts a { font-size: 19px; }
+.services a, .services p { font-size: 16px; }

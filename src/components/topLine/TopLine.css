@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Kraimorie';
+    src:url('../../assets/fonts/BloggerSans.ttf')
+  }
+   
+  @font-face {
+    font-family: 'Idealist';
+    src: url('../../assets/fonts/Idealist-Sans.otf')
+  }
+   
+  
+  *{
+    font-family: Kraimorie;
+    font-size: 17px;
+      font-weight: 400;
+      
+  }
+  
+  body{
+    margin: 0;
+  }
+  
+  .marquee {
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    overflow: hidden;
+    
+    white-space: nowrap;
+  }
+  
+  .marquee--inner {
+    display: flex;
+    align-items: center;
+    width: 200%;
+    position: absolute;
+    animation: marquee 10s linear infinite;
+  }
+  .marquee--inner:hover {
+    animation-play-state: paused;
+  }
+  
+  .marquee--inner>span {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+  }
+  .js-marquee{
+    display: flex;
+    align-items: baseline;
+    font-size: 22px;
+    color: #269E0E;
+  }
+  .js-marquee>span{
+    font-size: 22px;
+  }
+  
+  @keyframes marquee {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: -100%;
+    }
+  }
+  .navigation{    
+    background: rgb(246,246,246);
+      background: linear-gradient(180deg, rgba(246,246,246,1) 77%, rgba(76,76,76,0.14627100840336138) 100%);
+      min-height: 124px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  }
+  .links>div{
+    display: flex;
+    width: auto;
+  }
+  .links{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12%;
+  
+  }
+  .pink-icon{
+    color:#FF6380 ;
+  }
+  .green-icon{
+    color:#2BD500 ;
+  }
+  .links span{
+    font-size: 1.06em;;
+    font-family: Idealist;
+    color: #676767;
+    margin-right: 4px;
+    margin-left: 2px;
+  }
+  .inner{
+    position: absolute;
+  }
+  
+  

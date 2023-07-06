@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Idealist';
+    src: url('../../assets/fonts/Idealist-Sans.otf')
+  }
+
+  @font-face {
+    font-family: 'Bahur';
+    src: url('../../assets/fonts/KFOmCnqEu92Fr1Mu4mxK.woff2')
+  }
+
+.slogan-container{
+    padding: 20px;
+    display: inline-block;
+    background-color: #FCFAF9;
+    color: #57585a;
+    box-sizing: border-box;
+    width: 100%;
+}
+.slogan-container h1{
+    
+        text-align: center;
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        color: #1D31E3;
+        font-size: 2em;
+        font-family: 'blogger-sans',sans-serif;
+    
+}
+.small-slogan{
+    float: left;
+    width: 25%;
+    padding: 20px 30px 25px 30px;
+    box-sizing: border-box;
+    font-family: 'blogger-sans',sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+}
+.small-slogan>div{
+    font-family: Kraimorie;
+    min-height: 3.5em;
+    font-size: 22px;
+}
