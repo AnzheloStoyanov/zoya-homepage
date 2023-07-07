@@ -1,6 +1,6 @@
 import React from "react";
 import NavigationMenu from "../components/navigationMenu/NavigationMenu";
-import DropdownMenu from "react-bootstrap/esm/DropdownMenu";
+import DropdownMenu from '../components/DropDownMenu/DropDownMenu';
 import ContainerOfBannerSliders from "../components/bannerContainer/BannerContainer";
 import SmallBanners from "../components/BannerCards/Banners";
 import BigBanners from "../components/BannerCards/BigBaners";
