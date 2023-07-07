@@ -151,7 +151,7 @@ background-color:   #939393;
   background-color: #E1DCD2;
 }
 .popularSearch li{
-  font-size: 19px;
+  font-size: 15px;
   font-family:Idealist ;
   color: #4c4c4c;
   cursor: pointer;
@@ -167,7 +167,7 @@ ul {
 }
 .searchTitle{
   color: #7B9BC2 !important;
-  font-size: 21px !important;
+  font-size: 17px !important;
 
 }
 
