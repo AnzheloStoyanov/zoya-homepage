@@ -311,3 +311,7 @@ font-size: 17px;
 transition: all 0.4s ease 0s;
 width: 200px;
 height: 38px;}
+input,
+input::placeholder {
+    font: 1.25rem/3 sans-serif;
+}

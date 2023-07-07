@@ -64,7 +64,7 @@ export default function NavigationMenu(){
                             <FontAwesomeIcon className=' search-icon' style={{ color: '#838383' }} icon={faMagnifyingGlass} rotation={90} />
                             <input
                               ref={searchInputRef}
-                              className="text searchQuery"
+                              className="text searchQuery batak"
                               name="q"
                               placeholder="Търсене по продукт"
                               type="text"
