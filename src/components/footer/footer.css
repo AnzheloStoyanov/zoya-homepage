@@ -9,7 +9,7 @@ footer {
 }
 footer h4 {
     font-family: 'blogger-sans',sans-serif;
-    font-size: 22px;
+    font-size: 17px;
     color: #1D31E3;
     padding: 15px;
     text-align: center;
@@ -43,7 +43,7 @@ footer h4 {
 .tg .tg-hgcj {
     font-weight: 500;
     text-align: left;
-    font-size: 18px!important;
+    font-size: 14px!important;
     padding: 8px;
 }
 
@@ -102,9 +102,13 @@ footer a:hover {
     display: flex;
     flex-direction: column;
    
+
 }
+
+.phone{display: flex;}
+
 .services .phoneNumber {
-    font-size: 34px;
+    font-size: 27px;
     line-height: 48px;
     color: #2E7AF4;
     font-family: Bebas,Tahoma;
@@ -138,7 +142,7 @@ footer a:hover {
     
 }
 footer *{
-    font-size: 22px;
+    font-size: 14px;
 }
 .smesenIcon {
     display: flex;
@@ -159,5 +163,10 @@ footer *{
     background-repeat: no-repeat;
     background-position: 0% 50%;
 }
-.contacts a { font-size: 19px; }
+.contacts a { font-size: 16px; }
 .services a, .services p { font-size: 16px; }
+
+.col_content{
+    display: flex;
+    justify-content: center;
+}

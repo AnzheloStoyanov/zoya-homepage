@@ -88,7 +88,7 @@ export default function Recepts() {
             <form>
                 <input className="email-input" type="text"></input>
                 <input className="submitbtn" type="submit"></input>
-                <p>Запишете се за e-mail изданието на Зоя БГ (1-2 пъти месечно)</p>
+                <p style={{textAlign:'center'}}>Запишете се за e-mail изданието на Зоя БГ (1-2 пъти месечно)</p>
             <p>Въведете <span className="accent">e-mail</span> адрес</p>
             </form>
            

@@ -22,7 +22,7 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    width: 100%
+    width: 94%
 }
 .main-recept-cont{
     display: flex;
@@ -34,7 +34,7 @@
 }
 #kukufeed > span>a:last-child {
     font-size: 15px;
-    font-size: 20px;
+  
     padding: 15px;
     }
 

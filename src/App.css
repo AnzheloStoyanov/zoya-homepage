@@ -64,6 +64,7 @@ input {
 
 
 .quickSearch input.text {
+  position: absolute;
   background-color: #d9f4ff;
   font-family: Idealist;
     border: 0 none;
@@ -75,11 +76,14 @@ input {
     width: 200px;
     height: 38px;
 }
-.search-icon{
+.text ::placeholder{
+  font-size: 10px;
+}
+h-icon{
 
     font-size: 35px;
 }
-.searcing{
+ing{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,23 +109,23 @@ background-color:   #939393;
 
 }
 
-.searchButton{
+.searchButton {
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #838383;
-  width: 68px;
-  box-sizing:content-box;
+  width: 54px;
+  box-sizing: content-box;
   padding: 0 12px;
   border: 0 none;
   border-radius: 25px;
   outline: medium none;
-  height: 42px;
+  height: 33px;
   line-height: 30px;
   font-size: 17px;
   transition: all 0.4s ease 0s;
-
+  margin-left: 40px;
 }
 .links span{
   cursor: pointer;
@@ -173,7 +177,7 @@ ul {
 
 }
 .menu-icons *{
-  font-size: 35px;
+  font-size: 28px;
   color: #838383;
   display: flex;
   align-items: center;
@@ -181,7 +185,9 @@ ul {
 }
 
 
-
+.search-icon {
+  font-size: 28px;
+}
 
 .bahur{
   position: relative;
@@ -194,7 +200,7 @@ ul {
   display: flex;
 }
 .menu-icons>div{
-    font-size: 17px;
+    font-size: 14px;
     color: #000000e0;
     margin-left: 46px;
     font-family: Kraimorie;
@@ -245,13 +251,13 @@ ul {
 .menu-fa-zoya-icons{
   margin-right: 13px;
 }
-.user-icon{
+.user-icon {
   border-color: #939393;
   border-width: 2px;
   border-style: solid;
   border-radius: 50px;
-  width: 41px;
-  height: 41px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -259,7 +265,7 @@ ul {
 }
 .user-icon>*{
   color: #939393;
-  font-size: xx-large;
+  font-size: x-large;
 }
 .user-icon-container{
   display: flex;
@@ -281,7 +287,7 @@ ul {
 }
 
 .call-to-action{
-  font-size: 22px;
+  font-size: 17px;
     color: #1D31E3;
     font-family: Verdana, Arial, sans-serif;
 }
@@ -294,3 +300,14 @@ ul {
   justify-content: space-between;
   align-items: center;
 }
+.searcing   
+{ background-color: #d9f4ff;
+font-family: Idealist;
+border: 0 none;
+border-radius: 25px;
+outline: medium none;
+line-height: 30px;
+font-size: 17px;
+transition: all 0.4s ease 0s;
+width: 200px;
+height: 38px;}

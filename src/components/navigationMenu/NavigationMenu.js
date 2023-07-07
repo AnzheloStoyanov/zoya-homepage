@@ -78,7 +78,7 @@ export default function NavigationMenu(){
                           </div>
                         </div>
                       </td>
-                      <td style={{marginLeft:'40px'}}>
+                      <td>
                         <span className="searchButton">
                           <FontAwesomeIcon className=' search-icon' style={{ color: 'white' }} icon={faMagnifyingGlass} rotation={90} />
                         </span>

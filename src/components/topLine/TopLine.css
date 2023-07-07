@@ -11,7 +11,7 @@
   
   *{
     font-family: Kraimorie;
-    font-size: 17px;
+    font-size: 14px;
       font-weight: 400;
       
   }
@@ -51,7 +51,7 @@
   .js-marquee{
     display: flex;
     align-items: baseline;
-    font-size: 22px;
+    font-size: 16px;
     color: #269E0E;
   }
   .js-marquee>span{
@@ -91,7 +91,7 @@
     color:#2BD500 ;
   }
   .links span{
-    font-size: 1.06em;;
+    font-size: 1em;
     font-family: Idealist;
     color: #676767;
     margin-right: 4px;
