@@ -61,13 +61,11 @@ input {
   padding-right: 4px;
 }
 
-.quickSearch input.text {
-    background-color: #d9f4ff;
-    font-family: Idealist;
-}
+
 
 .quickSearch input.text {
-    
+  background-color: #d9f4ff;
+  font-family: Idealist;
     border: 0 none;
     border-radius: 25px;
     outline: medium none;
@@ -75,6 +73,7 @@ input {
     font-size: 17px;
     transition: all 0.4s ease 0s;
     width: 200px;
+    height: 38px;
 }
 .search-icon{
 
@@ -85,14 +84,16 @@ input {
   justify-content: center;
   align-items: center;
   background-color: #d9f4ff;
-  width: 268px;
+  /* width: 268px; */
   border: 0 none;
   border-radius: 25px;
   outline: medium none;
-  height: 53px;
+  /* height: 53px; */
   line-height: 30px;
   font-size: 17px;
   transition: all 0.4s ease 0s;
+  width: 175px;
+    height: 38px;
 }
 input::placeholder {
   text-align: center; 
@@ -116,7 +117,7 @@ background-color:   #939393;
   border: 0 none;
   border-radius: 25px;
   outline: medium none;
-  height: 53px;
+  height: 42px;
   line-height: 30px;
   font-size: 17px;
   transition: all 0.4s ease 0s;
@@ -287,4 +288,9 @@ ul {
 .carosel-con-a{
   overflow: hidden;
   width: 94vw;
+}
+.box-of-input{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

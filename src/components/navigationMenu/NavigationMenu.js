@@ -57,7 +57,7 @@ export default function NavigationMenu(){
               <form action="/category" className="quickSearch" validator="productSearch" method="get">
                 <table className="searchTable">
                   <tbody>
-                    <tr>
+                    <tr className="box-of-input">
                       <td>
                         <div className="searchFieldContainer">
                           <div className='searcing'>
@@ -78,7 +78,7 @@ export default function NavigationMenu(){
                           </div>
                         </div>
                       </td>
-                      <td>
+                      <td style={{marginLeft:'40px'}}>
                         <span className="searchButton">
                           <FontAwesomeIcon className=' search-icon' style={{ color: 'white' }} icon={faMagnifyingGlass} rotation={90} />
                         </span>
